@@ -1,8 +1,8 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
+title: "First_post"
 subtitle: ""
-date: {{ .Date }}
-lastmod: {{ .Date }}
+date: 2023-11-24T15:22:35+08:00
+lastmod: 2023-11-24T15:22:35+08:00
 draft: true
 author: ""
 authorLink: ""
