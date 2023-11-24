@@ -4,7 +4,7 @@ baseURL = "http://example.org/"
 theme = "LoveIt"
 
 # 网站标题
-title = "我的全新 Hugo 网站"
+title = "dazhao-studying-blog"
 
 # 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "zh-CN"
@@ -32,9 +32,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # 作者配置
 [author]
-  name = "xxxx"
-  email = ""
-  link = ""
+  name = "dazhao"
+  email = "j18810868289@163.com"
 
 # 菜单配置
 [menu]
@@ -77,9 +76,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   #  日期格式
   dateFormat = "2006-01-02"
   # 网站标题, 用于 Open Graph 和 Twitter Cards
-  title = "我的网站"
+  title = "dazhao-studying-blog"
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "这是jdz的全新 Hugo 网站"
+  description = "dazhao日常学习记录与分享"
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
 
@@ -94,7 +93,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # LOGO 的 URL
       logo = ""
       # 标题名称
-      name = "lalalal"
+      name = "dazhao"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
@@ -106,15 +105,15 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.footer]
     enable = true
     #  自定义内容 (支持 HTML 格式)
-    custom = ''
+    custom = 'dazhao❤studying'
     #  是否显示 Hugo 和主题信息
-    hugo = true
+    hugo = false
     #  是否显示版权信息
     copyright = true
     #  是否显示作者
-    author = true
+    author = false
     # 网站创立年份
-    since = 2019
+    since = 2023
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
     # 许可协议信息 (支持 HTML 格式)
@@ -141,7 +140,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   #  应用图标配置
   [params.app]
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "我的网站"
+    title = "dazhao-studying-blog"
     # 是否隐藏网站图标资源链接
     noFavicon = false
     # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
@@ -189,11 +188,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       #  主页显示的网站标题 (支持 HTML 格式)
       title = ""
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "这是jdz的全新 Hugo 网站"
+      subtitle = "dazhao日常学习记录与分享"
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号
-      social = true
+      social = false
       #  免责声明 (支持 HTML 格式)
       disclaimer = ""
     # 主页文章列表
@@ -207,12 +206,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # 作者的社交信息设置
   [params.social]
-    GitHub = "xxxx"
+    GitHub = ""
     Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    Twitter = ""
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
@@ -280,8 +279,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     HackTheBox = ""
     RootMe= ""
     Phone = ""
-    Email = "j18810868289@163.com"
-    RSS = true # 
+    Email = ""
+    RSS = false # 
 
   #  文章页面全局配置
   [params.page]
